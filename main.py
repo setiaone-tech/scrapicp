@@ -5,7 +5,7 @@ from flask import Flask, render_template, jsonify, request
 app = Flask(__name__)
 app.secret_key = "scraping_eprints"
 
-url = "http://eprints.uty.ac.id/"
+url = "eprints.uty.ac.id/"
 
 @app.route('/', methods=['GET'])
 def index():

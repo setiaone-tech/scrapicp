@@ -1,4 +1,4 @@
 requests
 Flask
 bs4
-flask_frozen
+Frozen-Flask

@@ -7,6 +7,10 @@ app.secret_key = "scraping_eprints"
 
 url = "http://eprints.uty.ac.id/"
 
+@app.route('/', methods=['GET'])
+def index():
+    return "sites is live"
+
 @app.route('/search', methods=['GET'])
 def search():
     keywoard = request.args.get("keywoard")

@@ -1,0 +1,1 @@
+berisi file static

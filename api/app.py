@@ -11,7 +11,7 @@ CORS(app)
 
 url_glob = "http://eprints.uty.ac.id"
 
-@app.route('/', methods=['GET'])
+@app.route('/api', methods=['GET'])
 def index():
     return render_template("index.html")
 

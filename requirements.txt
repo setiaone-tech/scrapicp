@@ -1,8 +1,0 @@
-requests
-Flask==1.1.2
-Jinja2==2.11.2
-MarkupSafe==1.1.1
-bs4==0.0.1
-Frozen-Flask
-itsdangerous==1.1.0
-Werkzeug==1.0.1
